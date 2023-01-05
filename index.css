@@ -11,7 +11,7 @@ html {
 .container {
     width: 100vw;
     height: 100vh;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +60,12 @@ select {
     border-radius: 10px;
     padding: 10px;
     font-size: 15px;
+    border: 1px solid brown;
+}
+
+select:focus,
+input:focus {
+    border: 2px solid rgb(10, 126, 180);
 }
 
 .form-input {
@@ -74,7 +80,7 @@ input {
     padding: 10px;
     font-size: 15px;
     outline: none;
-    border: none;
+    border: 1px solid brown;
 }
 
 button {
@@ -83,10 +89,15 @@ button {
     margin-top: 10px;
     border-radius: 10px;
     outline: none;
-    border: 2px solid seagreen;
-    background-color: seagreen;
+    border: 2px solid ;
+    background-color: rgb(13, 164, 79) ;
     color: azure;
     font-size: 20px;
+}
+
+button:hover {
+    background-color: seagreen;
+    cursor: pointer;
 }
 
 #form-submit {
@@ -98,6 +109,7 @@ button {
 .form-output {
     margin-top: 20px;
     font-size: 18px;
+    pointer-events: none;
 }
 
 
