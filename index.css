@@ -5,8 +5,7 @@
 }
 
 html {
-    font-family: 'Mobile Font', sans-serif;
-                                                
+    font-family: 'Mobile Font', sans-serif;                              
 }
 
 .container {
@@ -16,6 +15,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .content {    
@@ -26,13 +26,13 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
 }
 
 h1 {
     position: absolute;
     font-size: 25px;
-    top: 0;
-
+    top: 10px;
 }
 
 #form_content{
@@ -53,7 +53,7 @@ h1 {
 }
 
 label {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 select {
@@ -91,12 +91,13 @@ button {
 
 #form-submit {
     width: 70%;
-    margin-top: 20px;
+    margin-top: 5px;
     display: block;
 }
 
 .form-output {
-    margin-top: 5px;
+    margin-top: 20px;
+    font-size: 18px;
 }
 
 
