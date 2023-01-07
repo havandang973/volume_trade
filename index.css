@@ -10,7 +10,7 @@ html {
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 750px;
     /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
